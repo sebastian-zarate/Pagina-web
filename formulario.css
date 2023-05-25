@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(253, 251, 251);  <! el fondo de la pagina>
+    font-family: Arial; <! tipo de letra>   
+}
+
+
+
+.registro{
+    width: 500px;
+    height: 550px;
+    background: rgb(114, 122, 122);
+    padding: 5;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 50px;
+    font-family: arial;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+.formulario{
+    width: 100%;
+    background: rgba(252, 252, 252, 0.333);
+    padding: 5px;
+  border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.registro a{
+    padding: 10;
+    color: rgb(248, 248, 248);
+    text-decoration:none ;
+
+}
+.registro a{
+ background-color: antiquewhite;
+ border-radius: 15px;
+    color: rgb(2, 2, 2);
+    text-decoration:underline;
+
+}
+
+ h1{
+    
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+ }
+
+.registro .boton{ 
+    width: 40%;
+    background: white;
+    border-radius: 15px;
+    border: 25px, black;
+     padding: 9px;
+    color: rgb(8, 8, 8);
+    margin: 16px 0;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+
+}

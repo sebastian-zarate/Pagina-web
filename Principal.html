@@ -1,0 +1,157 @@
+<html>
+    <head> 
+        <link rel="stylesheet" type="text/css" href="estiloDePagina.css"></link> 
+        <title> Barber-shop</title>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- poner la x para cerrar los cortes -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+
+        <!--metodo para llamar a js-->
+        <script src="script.rs" defer></script>
+      </head>  
+    <body>
+       <header> <!metodo del logo>
+          <div class="logo">
+             <img src=" logo.jpg" >
+             <h2> Barber-shop</h2>
+          </div>
+       </header>
+      <br> 
+       <ul class="menu"> <! las funciones>
+          <li><a href="inicio.html.html"> Inicio</a> </li> <! link a incicio>
+          <li><a href="Principal.html">Cortes</a> </li> <! link a cortes>
+          <li><a href="inicio.html.html"> Información </a> </li> <! link a informcion de la empresa>
+          <li><a href="registro.html"> Contacto</a> </li>  <! link al contacto de la empresa>
+       </ul>
+
+       <! -----------ESTILO DE LOS CORTES---->
+       <div class="container">
+          <h3 class="title"> Estilos </h3>
+     
+        <div class="products-container">
+            
+           <div class="product" data-name="p-1"> <!---- estilo 1-->
+              <img src="midFade.jpg" alt="">
+              <h3> Mid fade</h3>
+              <div class="price">$900</div>
+           </div>
+     
+           <div class="product" data-name="p-2"> <!--estilo 2-->
+              <img src="mifFadeBar.jpg" alt=""> 
+              <h3>Fade más barba</h3>
+              <div class="price">$1200</div>
+           </div>
+     
+           <div class="product" data-name="p-3"> <!--estilo 3-->
+              <img src="LowFade.jpg" alt="">
+              <h3>Low fade</h3>
+              <div class="price">$900</div>
+           </div>
+     
+           <div class="product" data-name="p-4"><!--estilo 4-->
+              <img src="taper.jpg" alt="">
+              <h3>Taper fade</h3>
+              <div class="price">$1000</div>
+           </div>
+     
+           <div class="product" data-name="p-5"><!--estilo 5-->
+              <img src="highFade.jpeg" alt="">
+              <h3>High fade </h3>
+              <div class="price">$1000</div>
+           </div>
+     
+           <div class="product" data-name="p-6"> <!--estilo 6-->
+              <img src="buzz.jpg" alt="">
+              <h3>buzz</h3>
+              <div class="price">$1000</div>
+           </div>
+     
+        </div>
+     
+     </div>
+     <!--SEGUNDA FASE-->
+     <div class="products-preview">
+     
+        <div class="preview" data-target="p-1"> <!--estilo 1-->
+           <i class="fas fa-times"></i>
+           <img src="midFade.jpg" alt="">
+           <h3>Mid fade</h3>
+           <p>El Mid Fade, proporciona un equilibrio perfecto entre una baja y alta decoloración de su cabello.</p>
+           
+           <div class="price">$900</div>
+           <div class="buttons">
+              <a href="registro.html" class="buy">Pedir turno</a>
+             
+           </div>
+        </div>
+     
+
+
+        <div class="preview" data-target="p-2"> <!--estilo 2-->
+           <i class="fas fa-times"></i>
+           <img src="mifFadeBar.jpg" alt="">
+           <h3>Fade más barba</h3>
+           <p> Este combo es especial para definir mejor el rostro y tu estilo. </p>
+           <div class="price">$1200</div>
+           <div class="buttons">
+              <a href="registro.html" class="buy">Pedir turno</a>
+              
+           </div>
+        </div>
+     
+        <div class="preview" data-target="p-3"> <!--estilo 3-->
+           <i class="fas fa-times"></i>
+           <img src="LowFade.jpg" alt="">
+           <h3>Low fade</h3>
+           <p> El low fade se usa para marcar el peinado y para dar la definición completa del corte.</p>
+           <div class="price">$900</div>
+           <div class="buttons">
+              <a href="registro.html" class="buy">Pedir turno</a>
+           
+           </div>
+        </div>
+     
+        <div class="preview" data-target="p-4"> <!--estilo 4-->
+           <i class="fas fa-times"></i>
+           <img src="taper.jpg" alt="">
+           <h3>Taper fade</h3>
+           <p> El Taper Fade este estilo ofrece un aspecto masculino limpio y perfecto para situaciones profesionales.</p>
+           <div class="price">$1000</div>
+           <div class="buttons">
+              <a href="registro.html" class="buy">Pedir turno</a>
+           
+           </div>
+        </div>
+     
+        <div class="preview" data-target="p-5"><!--estilo 5-->
+           <i class="fas fa-times"></i>
+           <img src="highFade.jpeg" alt="">
+           <h3>High fade</h3>
+           <p>  High fade es un desbaste alto con rasadura a piel, que implica una gradación del corte de abajo hacia arriba.</p>
+           <div class="price">$1000</div>
+           <div class="buttons">
+              <a href="registro.html" class="buy">Pedir turno</a>
+           </div>
+        </div>
+     
+        <div class="preview" data-target="p-6"> <!--estilo 6-->
+           <i class="fas fa-times"></i>
+           <img src="buzz.jpg" alt="">
+           <h3>Buzz</h3>
+           <p> El corte buzz varían en longitud y pueden medir hasta 0,625 cm de largo o tan cortos como casi el rapado.</p>
+           <div class="price">$1000</div>
+           <div class="buttons">
+              <a href="registro.html" class="buy">Pedir turno</a>
+              
+           </div>
+        </div>
+     
+     </div>
+  </body>
+</html>

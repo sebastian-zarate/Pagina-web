@@ -1,0 +1,102 @@
+<html> 
+    <head> 
+        <link rel="stylesheet" type="text/css"href="formulario.css"></link>
+         <title> Registro </title>
+    </head>
+        <script>
+              function guardar()
+   {
+   var nombre = document.getElementById("nombre").value;    // cargar nombre>
+   //alert(dato);
+   
+   var apellido =  document.getElementById("Apellido").value;
+   var correo = document.getElementById("mail").value;
+   var telef = document.getElementById("telefono").value; // declarar la variable telefono 
+  var paiss = document.getElementById("pais").value;
+ // alertas si sino se completa una casilla
+    if (apellido =="" || nombre ==""|| correo==""|| correo =="" || telef=="" || paiss==0)// validar los campos
+    {
+        
+        if(nombre=="")
+        {
+            alert("El nombre es obligatorio.") // alertas 
+        }
+        if(apellido=="")
+        {
+            alert("El apellido es obligatorio.") // alertas 
+        }
+        if(correo=="")
+        {
+            alert("El correo es obligatorio.") // alertas 
+        }
+        if(telef=="")
+        {
+            alert("El telefono es obligatorio.") // alertas 
+        }
+        if(paiss ==0)
+        {
+           alert("El pais es obligatorio"); // alerta
+        }
+        
+    
+    } else {
+
+   document.getElementById("texto").innerHTML = alert("Los datos se enviaron corretamente. ");
+volver();
+ 
+}
+   }
+
+
+        </script>
+   
+    <body>
+
+
+
+<section class="registro">
+    <h1> Formulario</h1>
+<! pagina de registro>
+<!Espacio para poner el nombre>
+<label>Nombre:</label>
+<input class="formulario" type="text"  text="nombre" id="nombre" placeholder="Ingrese su nombre"></input>
+<!input type="button" value="Guardar" onclick="guardar()"> </input>
+<br>
+<!Espacio para poner el apellido >
+<label>Apellido:</label>
+<input class="formulario"  type="text"  text=" apellido" id="Apellido" placeholder="Ingrese su apellido">  </input>
+<br><!Espacio para poner el correo>
+<label> Email:</label>
+<input class="formulario"  type="email" id="mail" text ="mail" placeholder="Ingrese su email">  </input>
+<br> 
+<!Espacio para poner el telefono>
+<label>Telefono:</label>
+<input  class="formulario"  type="number" id="telefono" text=" Celular" placeholder="4345 4865656"> </input>
+<br> 
+<!Espacio para poner algun comentario>
+<label> Comentario:</label>
+<input class="formulario"  type="text"  text=" apellido" id="Apellido" placeholder="Escribe un comentario"> </input>
+<br>
+<!Espacio para elegir un pais>
+
+<label> Pais</label>
+<select class="formulario" id="pais"  name="paises">
+<option disabled="esteNo" value="0" selected>Seleciona una opcion</option>
+     <option value="1">Argentina</option>
+     <option value="2">Bolivia</option>
+     <option value="3">Brasil</option>
+     <option value="4">Chile</option>
+     <option value="5">Paraguay</option>
+     <option value="6">Uruguay</option>
+<br>
+
+</select>
+<br> <!funcion del bototon enviar > 
+<input class="boton" type="button" value="Enviar formulario" onclick="guardar()"> </input> 
+<a href="inicio.html.html"> Volver al inicio</a>
+</section>
+
+
+</body>
+
+</html>
